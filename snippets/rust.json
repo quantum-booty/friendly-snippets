@@ -234,6 +234,17 @@
     "body": ["else {", "    ${1:unimplemented!();}", "}"],
     "description": "else { … }"
   },
+  "penum": {
+    "prefix": "penum",
+    "body": [
+      "#[derive(Debug)]",
+      "pub enum ${1:Name} {",
+      "    ${2:Variant1},",
+      "    ${3:Variant2},",
+      "}"
+    ],
+    "description": "enum … { … }"
+  },
   "enum": {
     "prefix": "enum",
     "body": [
@@ -374,12 +385,18 @@
   "struct": {
     "prefix": "struct",
     "body": [
-      "#[derive(Debug)]",
       "struct ${1:Name} {",
       "    ${2:field}: ${3:Type}",
       "}"
     ],
     "description": "struct … { … }"
+  },
+  "derivedebug": {
+    "prefix": "derived",
+    "body": [
+      "#[derive(Debug)]"
+    ],
+    "description": "#[derive(Debug)]"
   },
   "test": {
     "prefix": "test",

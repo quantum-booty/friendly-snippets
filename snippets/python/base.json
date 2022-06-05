@@ -47,7 +47,7 @@
   },
   "class": {
     "prefix": "class",
-    "body": ["class ${1:classname}(${2:object}):", "\t${3:pass}"],
+    "body": ["class ${1:classname}:", "\t${3:pass}"],
     "description": "Code snippet for a class definition"
   },
   "New class": {
@@ -154,11 +154,6 @@
     "prefix": "with",
     "body": ["with ${1:expression} as ${2:target}:", "\t${3:pass}"],
     "description": "Code snippet for a with statement"
-  },
-  "self": {
-    "prefix": ".",
-    "body": "self.$0",
-    "description": "Shortend snippet to reference the self property in an object."
   },
   "__magic__": {
     "prefix": "__",
