@@ -275,15 +275,6 @@
     "body": ["extern \"C\" {", "    ${2:// add code here}", "}"],
     "description": "extern \"C\" { … }"
   },
-  "fn": {
-    "prefix": "fn",
-    "body": [
-      "fn ${1:name}(${2:arg}: ${3:Type}) -> ${4:RetType} {",
-      "    ${5:unimplemented!();}",
-      "}"
-    ],
-    "description": "fn …(…) { … }"
-  },
   "for": {
     "prefix": "for",
     "body": ["for ${1:pat} in ${2:expr} {", "    ${3:unimplemented!();}", "}"],
