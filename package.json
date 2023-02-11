@@ -55,7 +55,10 @@
         "path": "./snippets/elixir.json"
       },
       {
-        "language": "eelixir",
+        "language": [
+          "eelixir",
+          "heex"
+        ],
         "path": "./snippets/eelixir.json"
       },
       {
@@ -83,6 +86,10 @@
         "path": "./snippets/fennel.json"
       },
       {
+        "language": "fsh",
+        "path": "./snippets/fsh.json"
+      },
+      {
         "language": "php",
         "path": "./snippets/php.json"
       },
@@ -107,6 +114,22 @@
         "path": "./snippets/rust.json"
       },
       {
+        "language": "rust",
+        "path": "./snippets/frameworks/relm4/workers.json"
+      },
+      {
+        "language": "rust",
+        "path": "./snippets/frameworks/relm4/factories.json"
+      },
+      {
+        "language": "rust",
+        "path": "./snippets/frameworks/relm4/templates.json"
+      },
+      {
+        "language": "rust",
+        "path": "./snippets/frameworks/relm4/components.json"
+      },
+      {
         "language": "haskell",
         "path": "./snippets/haskell.json"
       },
@@ -125,6 +148,10 @@
       {
         "language": "sql",
         "path": "./snippets/sql.json"
+      },
+      {
+        "language": "systemverilog",
+        "path": "./snippets/systemverilog.json"
       },
       {
         "language": [
@@ -158,6 +185,10 @@
         "path": "./snippets/java.json"
       },
       {
+        "language": "java-testing",
+        "path": "./snippets/java/java-tests.json"
+      },
+      {
         "language": "julia",
         "path": "./snippets/julia.json"
       },
@@ -168,7 +199,8 @@
           "pug",
           "eruby",
           "javascriptreact",
-          "htmldjango"
+          "htmldjango",
+          "astro"
         ],
         "path": "./snippets/html.json"
       },
@@ -295,7 +327,7 @@
       },
       {
         "language": [
-          "djangohtml", 
+          "djangohtml",
           "htmldjango"
         ],
         "path": "./snippets/frameworks/djangohtml.json"
@@ -410,8 +442,16 @@
         "path": "./snippets/verilog.json"
       },
       {
+        "language": "vhdl",
+        "path": "./snippets/vhdl.json"
+      },
+      {
         "language": "dockerfile",
         "path": "./snippets/docker/docker_file.json"
+      },
+      {
+        "language": "edge",
+        "path": "./snippets/frameworks/edge.json"
       }
     ]
   }
